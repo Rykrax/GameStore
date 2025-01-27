@@ -1,0 +1,17 @@
+.header {
+    padding: 10px 0;
+}
+
+.container {
+    text-align: center;
+    height: var(--header-height);
+}
+
+.header-title {
+    
+}
+
+.header-title img {
+    height: var(--header-height);
+    width: 176px;
+}
