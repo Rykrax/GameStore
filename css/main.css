@@ -15,3 +15,60 @@
     height: var(--header-height);
     width: 176px;
 }
+
+.header-search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header-search input {
+    width: 450px;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+.header-search button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    background-color: #a7a8a7;
+    border-radius: 0 4px 4px 0;
+}
+
+.header-auth {
+    display: flex;
+    align-items: center;
+}
+
+.right-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-button a {
+
+}
+
+.auth-button {
+    padding: 10px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.auth-button.sign-in:hover {
+    background-color: green;
+}
+
+.auth-button.sign-up:hover {
+    background-color: red;
+}
