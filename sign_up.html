@@ -66,8 +66,14 @@
 
     <div class="grid wide">
         <div class="auth-form">
-            <h1>Đăng nhập</h1>
+            <h1>Đăng ký</h1>
             <form action="" method="get">
+                <div class="form-group">
+                    <div><label class="form-label" for="username">
+                        <strong>Họ và tên</strong>    
+                    </label></div>
+                    <div><input class="form-input" type="text" id="username" name="username"></div>
+                </div>
                 <div class="form-group">
                     <div><label class="form-label" for="email">
                         <strong>Email</strong>    
@@ -81,13 +87,22 @@
                     <div><input class="form-input" type="text" id="password" name="password"></div>
                 </div>
                 <div class="form-group">
+                    <div><label class="form-label" for="confirm-password">
+                        <strong>Nhập lại mật khẩu</strong>    
+                    </label></div>
+                    <div><input class="form-input" type="text" id="confirm-password" name="confirm-password"></div>
+                </div>
+                <div class="form-group">
                     <div class="form-button">
-                        <button>Đăng nhập</button>
+                        <button>Đăng ký</button>
                     </div>
                 </div>
             </form>
+            <div class="agreement-container">
+
+            </div>
             <div class="switch-container">
-                <p>Chưa có tài khoản? <a href="#">Đăng ký</a></p>
+                <p>Đã có tài khoản? <a href="./sign_in.html">Đăng nhập</a></p>
             </div>
         </div>
     </div>
